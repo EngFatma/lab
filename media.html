@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- venobox style -->
+    <link rel="stylesheet" href="css/venobox.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--start navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/home/Logo.svg" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-bars navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><span>Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publications.html"><span>Publications</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html"><span>Research</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html"><span>Events</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="media.html"><span>Media</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html"><span>Blogs</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><span>About Me</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!--./navbar-collapse-->
+        </div>
+        <!--./container-->
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start categories section -->
+    <section class="categories pt-4">
+        <div class="container">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                        aria-controls="pills-all" aria-selected="true">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-category1-tab" data-toggle="pill" href="#pills-category1" role="tab"
+                        aria-controls="pills-category1" aria-selected="false">Category 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-category2-tab" data-toggle="pill" href="#pills-category2" role="tab"
+                        aria-controls="pills-category2" aria-selected="false">Category 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-category3-tab" data-toggle="pill" href="#pills-category3" role="tab"
+                        aria-controls="pills-category3" aria-selected="false">Category 3</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                    <!-- <div class="video_item text-center" style="background-image:url(images/home/all-img1.svg)">
+                                        <div class="video_overlay">
+                                            <img src="images/home/video-icon.svg" class="img-fluid">
+                                        </div>
+                                    </div> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img3.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img5.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img6.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img7.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                    <!-- <div class="video_item text-center" style="background-image:url(images/home/all-img1.svg)">
+                                        <div class="video_overlay">
+                                            <img src="images/home/video-icon.svg" class="img-fluid">
+                                        </div>
+                                    </div> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img3.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img5.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img6.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="allGallery" data-vbtype="video"
+                                    href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img7.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-category1" role="tabpanel" aria-labelledby="pills-category1-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img3.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category1_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-category2" role="tabpanel" aria-labelledby="pills-category2-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img3.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img5.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img6.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img7.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category2_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img5.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-category3" role="tabpanel" aria-labelledby="pills-category3-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category3_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img1.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category3_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img2.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category3_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img3.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="video_item">
+                                <a class="venobox" data-autoplay="true" data-gall="category3_gallery"
+                                    data-vbtype="video" href="https://youtu.be/SccAnLt6eYo">
+                                    <video controls id="" poster="images/home/all-img4.svg">
+                                        <source src="videos/rain.mp4" type="video/mp4" />
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start News letter section  -->
+    <section class="newsLetter_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="news_header">News letter</h2>
+                </div>
+                <div class="col-md-7">
+                    <div class="news_input">
+                        <h3>Sign up for News Letter</h3>
+                        <div class="mail_input">
+                            <input type="text" placeholder="Write Your Email" />
+                            <button type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="news_social">
+                        <h3>Let's Connect</h3>
+                        <div class="social_container">
+                            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-info">
+                        <img src="images/home/Logo.svg" class="img-fluid" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                            takimata
+                        </p>
+                        <p class="copyRight">
+                            Copyright &copy; 2020 lorem All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_column">
+                        <h3>Lorem</h3>
+                        <p><a href="#">Lorem ipsum</a></p>
+                        <p><a href="#">Lorem ipsum</a></p>
+                        <p><a href="#">Lorem ipsum</a></p>
+                        <p><a href="#">Lorem ipsum</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_column">
+                        <h3>Categories</h3>
+                        <p><a href="#">Publications</a></p>
+                        <p><a href="#">Events</a></p>
+                        <p><a href="#">Media</a></p>
+                        <p><a href="#">Blogs</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_column">
+                        <h3>Services</h3>
+                        <p><a href="#">About</a></p>
+                        <p><a href="#">Privacy & Policy</a></p>
+                        <p><a href="#">FAQ</a></p>
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_column addres">
+                        <h3>Address</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed+9+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <!-- <script src="js/jquery.fancybox.min.js"></script> -->
+
+    <!-- venobox script -->
+    <script src="js/venobox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

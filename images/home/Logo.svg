@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187" height="34.3" viewBox="0 0 187 34.3">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17bcfe"/>
+      <stop offset="1" stop-color="#0475f0"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-140 -34)">
+    <g id="logo-ccf" transform="translate(140 34)">
+      <path id="Path_1" data-name="Path 1" d="M26.6,10.2v5.9h5.2a2.476,2.476,0,0,0,2.5-2.5V2.5A2.476,2.476,0,0,0,31.8,0H20.7a2.476,2.476,0,0,0-2.5,2.5V7.7h5.9A2.54,2.54,0,0,1,26.6,10.2Zm-18.9,0v5.9H2.5A2.476,2.476,0,0,1,0,13.6V2.5A2.476,2.476,0,0,1,2.5,0H13.6a2.476,2.476,0,0,1,2.5,2.5V7.7H10.2A2.611,2.611,0,0,0,7.7,10.2Z" fill="url(#linear-gradient)"/>
+      <path id="Path_2" data-name="Path 2" d="M7.7,24.1V18.2H2.5A2.476,2.476,0,0,0,0,20.7V31.8a2.476,2.476,0,0,0,2.5,2.5H13.6a2.476,2.476,0,0,0,2.5-2.5V26.6H10.2A2.54,2.54,0,0,1,7.7,24.1Zm18.9,0V18.2h5.2a2.476,2.476,0,0,1,2.5,2.5V31.8a2.476,2.476,0,0,1-2.5,2.5H20.7a2.476,2.476,0,0,1-2.5-2.5V26.6h5.9A2.476,2.476,0,0,0,26.6,24.1Z" fill="rgba(37,194,205,0.99)"/>
+    </g>
+    <text id="Scientist_lab" data-name="Scientist lab" transform="translate(180 61)" fill="#fff" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Scientist lab</tspan></text>
+  </g>
+</svg>
