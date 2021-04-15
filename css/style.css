@@ -623,7 +623,6 @@ footer {
 
 .footer_column p a:hover:after {
   animation-name: bottom_line;
-  /* animation-delay: 1s; */
   animation-duration: 1s;
 }
 
@@ -1532,6 +1531,7 @@ footer {
   font-weight: 600;
   font-size: 40px;
 }
+
 
 
 
